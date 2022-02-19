@@ -116,7 +116,7 @@
                             android:paddingTop="30dp"
                             android:paddingBottom="15dp"
                             android:text="@string/card_text_1"
-                            android:textColor="#A9E69462"
+                            android:textColor="#F4F4F3"
                             android:textSize="18sp"
                             tools:ignore="RtlSymmetry" />
 
@@ -207,7 +207,7 @@
                 android:layout_weight="0.33"
                 android:adjustViewBounds="true"
                 app:cardCornerRadius="5dp"
-                app:strokeColor="@color/light_gray"
+                app:strokeColor="#F8F7F5"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -227,7 +227,7 @@
                         android:layout_marginTop="17dp"
                         android:layout_marginBottom="10dp"
                         android:background="@drawable/ic_infected"
-                        android:backgroundTint="#A9E69462"
+                        android:backgroundTint="#E8BB79"
                         android:contentDescription="@string/blank" />
 
                     <TextView
@@ -237,7 +237,7 @@
                         android:fontFamily="@font/bold"
                         android:text="@string/loading"
                         android:textAlignment="center"
-                        android:textColor="#A9E69462"
+                        android:textColor="#E8BB79"
                         android:textSize="16sp" />
 
                     <TextView
@@ -272,7 +272,7 @@
                 android:layout_weight="0.33"
                 android:adjustViewBounds="true"
                 app:cardCornerRadius="5dp"
-                app:strokeColor="#F8F7F6"
+                app:strokeColor="#A1F8FAF9"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -337,7 +337,7 @@
                 android:layout_weight="0.33"
                 android:adjustViewBounds="true"
                 app:cardCornerRadius="5dp"
-                app:strokeColor="@color/light_gray"
+                app:strokeColor="#FBFBFB"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -357,7 +357,7 @@
                         android:layout_marginTop="17dp"
                         android:layout_marginBottom="10dp"
                         android:background="@drawable/ic_deaths"
-                        android:backgroundTint="#F37272"
+                        android:backgroundTint="#EF8787"
                         android:contentDescription="@string/blank" />
 
                     <TextView
@@ -367,7 +367,7 @@
                         android:fontFamily="@font/bold"
                         android:text="@string/loading"
                         android:textAlignment="center"
-                        android:textColor="#F37272"
+                        android:textColor="#EF8787"
                         android:textSize="16sp" />
 
                     <TextView
