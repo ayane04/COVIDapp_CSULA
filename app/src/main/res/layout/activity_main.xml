@@ -81,7 +81,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="-10dp"
-                android:backgroundTint="@color/dark"
+                android:backgroundTint="#A13EE3A3"
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?android:attr/selectableItemBackground"
@@ -116,7 +116,7 @@
                             android:paddingTop="30dp"
                             android:paddingBottom="15dp"
                             android:text="@string/card_text_1"
-                            android:textColor="@color/white"
+                            android:textColor="#A9E69462"
                             android:textSize="18sp"
                             tools:ignore="RtlSymmetry" />
 
@@ -183,7 +183,7 @@
             android:fontFamily="@font/regular"
             android:text="@string/cdc_link"
             android:textColorHighlight="@color/white"
-            android:textColorLink="@color/blue"
+            android:textColorLink="#A13EE3A3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_latest_update_title" />
 
@@ -227,7 +227,7 @@
                         android:layout_marginTop="17dp"
                         android:layout_marginBottom="10dp"
                         android:background="@drawable/ic_infected"
-                        android:backgroundTint="@color/orange"
+                        android:backgroundTint="#A9E69462"
                         android:contentDescription="@string/blank" />
 
                     <TextView
@@ -237,7 +237,7 @@
                         android:fontFamily="@font/bold"
                         android:text="@string/loading"
                         android:textAlignment="center"
-                        android:textColor="@color/orange"
+                        android:textColor="#A9E69462"
                         android:textSize="16sp" />
 
                     <TextView
@@ -272,7 +272,7 @@
                 android:layout_weight="0.33"
                 android:adjustViewBounds="true"
                 app:cardCornerRadius="5dp"
-                app:strokeColor="@color/light_gray"
+                app:strokeColor="#F8F7F6"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -292,7 +292,7 @@
                         android:layout_marginTop="17dp"
                         android:layout_marginBottom="10dp"
                         android:background="@drawable/ic_vaccinated"
-                        android:backgroundTint="@color/green"
+                        android:backgroundTint="#A13EE3A3"
                         android:contentDescription="@string/blank" />
 
                     <TextView
@@ -302,7 +302,7 @@
                         android:fontFamily="@font/bold"
                         android:text="@string/loading"
                         android:textAlignment="center"
-                        android:textColor="@color/green"
+                        android:textColor="#A13EE3A3"
                         android:textSize="16sp" />
 
                     <TextView
@@ -357,7 +357,7 @@
                         android:layout_marginTop="17dp"
                         android:layout_marginBottom="10dp"
                         android:background="@drawable/ic_deaths"
-                        android:backgroundTint="@color/red"
+                        android:backgroundTint="#F37272"
                         android:contentDescription="@string/blank" />
 
                     <TextView
@@ -367,7 +367,7 @@
                         android:fontFamily="@font/bold"
                         android:text="@string/loading"
                         android:textAlignment="center"
-                        android:textColor="@color/red"
+                        android:textColor="#F37272"
                         android:textSize="16sp" />
 
                     <TextView
